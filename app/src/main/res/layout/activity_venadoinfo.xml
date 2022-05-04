@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_venado"
+    tools:context=".venadoinfo">
+
+
+    <TextView
+
+        android:id="@+id/textView6"
+        android:layout_width="329dp"
+        android:layout_height="565dp"
+        android:text="Se encuentra en páramos, sabanas, bosques deciduos, de coníferas y tropicales, hasta plantaciones forestales asociadas con terrenos agrícolas (TEER, 1994).  Preferencialmente, habita zonas abiertas que presentan un mosaico de vegetación con diferentes estratos (razante, herbáceo, arbustivo y arbóreo) y siempre cercano a cursos de agua.  Asimismo, tiene una alta capacidad de tolerar ambientes intervenidos por la actividad humana (Sánchez et al., 1997; Richardson, s.f.).  Son primordialmente crepusculares, pero también activos de día o de noche.  Viven en grupos pequeños (2-6) con una unidad básica social hembra-cría(s), grupos de machos juveniles, y machos solitarios en la época reproductiva (OJASTI, 1996).  Su rango de acción es altamente variable, lo cual depende principalmente de factores ambientales como el clima y el tipo de cobertura (MATALLANA, 2001) y varía conforme al sexo y la edad. Se presentan movimientos de desplazamiento conforme a la disponibilidad estacional de fuentes de agua y alimento. Pueden reducir sus actividades bajo presión de la actividad humana y la cacería.  Amenazas La fuerte presión de caza y la transformación drástica del hábitat que ocupa ha eliminado sus poblaciones de la sabana de Bogotá y algunos páramos circundantes como el de cruz verde y el páramo de Guerrero.  Se encuentra posiblemente extinto o con poblaciones muy reducidas en el Nevado del Huila y el Nevado de Puracé, en los Andes de Nariño y en el Alto Cauca, Valle del Dagua, en la Sierra Nevada de Santa Marta y en varios sectores de la Orinoquia.  Su convivencia en áreas abiertas con ganado enfrenta a esta especie a padecer enfermedades transmitidas por el ganado, como es el caso de la aftosa y otras enfermedades vesiculares 1998)."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/vena"
+        android:layout_width="312dp"
+        android:layout_height="241dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.585"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/venado"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fondo_tigre"
+    tools:context=".tigresinfo">
+
+
+    <TextView
+
+        android:id="@+id/textView6"
+        android:layout_width="415dp"
+        android:layout_height="713dp"
+        android:text="Los tigres son los miembros más grandes de la familia de los felinos y son famosos por su potencia y fuerza.  En su momento hubo ocho subespecies de tigre, pero tres se extinguieron durante el siglo XX. En los últimos cien años, la caza y la destrucción de los bosques han reducido la población de tigres de cientos de miles a quizá menos de 2.500. Los tigres son cazados como trofeos, y también por algunas partes de su cuerpo que se usan en la medicina tradicional china. Las cinco subespecies de tigre restantes están en peligro, y se han implantado muchos programas de conservación.  Los tigres de Bengala, también llamados tigres indios, viven en la India. Son la especie de tigre más numerosa y suponen cerca de la mitad de la población de tigres salvajes. Durante muchos siglos han desempeñado un importante papel en la tradición y la cultura de la India.  Hábitat del Tigre de Bengala Hábitat del Tigre de Bengala Los tigres viven en solitario y marcan agresivamente con su olor grandes territorios para mantener alejados a los rivales. Son poderosos cazadores nocturnos, capaces de recorrer muchos kilómetros para encontrar búfalos, ciervos, jabalíes u otros grandes mamíferos. Los tigres usan su característico pelaje para camuflarse (no hay dos tigres con las mismas rayas). Acechan pacientemente y se acercan a sus víctimas con gran sigilo lo suficiente para atacarlas con un salto rápido y letal. Un tigre hambriento puede comer hasta 25 kilogramos en una noche, aunque normalmente no son tan voraces."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/tig"
+        android:layout_width="267dp"
+        android:layout_height="239dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/tiger"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_koala"
+    tools:context=".koalainfo">
+
+
+    <TextView
+
+        android:id="@+id/textView6"
+        android:layout_width="385dp"
+        android:layout_height="552dp"
+        android:text="El koala es el animal australiano emblemático. Suele ser llamado el oso koala, pero en verdad, este animal que trepa por los árboles, es un marsupial, es decir, un mamífero que posee una bolsa para permitir el desarrollo de sus crías.  El pelaje del koala es similar a la lana gruesa de una oveja. Tienen dos pulgares opuestos en sus manos, y tanto sus patas anteriores como posteriores tienen almohadillas y garras rugosas para poder aferrarse a las ramas. En las patas traseras tienen dos dedos fusionados que usan para acicalarse.  Hábitat, comportamiento y alimentación Los koalas viven en los bosques de eucaliptos del sureste y este de Australia. La mayor parte del tiempo están durmiendo. Se alimentan de eucalipto y pueden comer medio kilo de hojas de eucalipto por día. Sin embargo, como este alimento es tóxico, para poder digerirlo, el sistema digestivo del koala debe descomponer las toxinas y extraer los nutrientes necesarios.  Por este motivo, los koalas deben dormir muchas horas, pues obtienen muy poca energía a partir de su alimentación. Suelen dormir de 18 a 22 horas en los huecos de los árboles.  Los koalas no suelen beber mucha agua, ya que obtienen este elemento a partir de las hojas de eucalipto. Los koalas incluso pueden almacenar hojas en sus bolsas para alimentarse más tarde. Comen tanto eucalipto que muchas veces huelen a esta planta."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/koalan"
+        android:layout_width="266dp"
+        android:layout_height="233dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.434"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/koala"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

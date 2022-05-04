@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/gerso/AndroidStudioProjects/trabajo1/app/src/main/res/drawable/btn_color.xml" value="0.1" />
+        <entry key="..\:/Users/gerso/AndroidStudioProjects/trabajo1/app/src/main/res/layout/activity_ballenainfo.xml" value="0.22" />
+        <entry key="..\:/Users/gerso/AndroidStudioProjects/trabajo1/app/src/main/res/layout/activity_ballenas.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/gerso/AndroidStudioProjects/trabajo1/app/src/main/res/layout/activity_elefanteinfo.xml" value="0.33" />
+        <entry key="..\:/Users/gerso/AndroidStudioProjects/trabajo1/app/src/main/res/layout/activity_elefantes.xml" value="0.1" />
+        <entry key="..\:/Users/gerso/AndroidStudioProjects/trabajo1/app/src/main/res/layout/activity_koalainfo.xml" value="0.22" />
+        <entry key="..\:/Users/gerso/AndroidStudioProjects/trabajo1/app/src/main/res/layout/activity_koalas.xml" value="0.1" />
+        <entry key="..\:/Users/gerso/AndroidStudioProjects/trabajo1/app/src/main/res/layout/activity_leones.xml" value="0.1" />
+        <entry key="..\:/Users/gerso/AndroidStudioProjects/trabajo1/app/src/main/res/layout/activity_leoninfo.xml" value="0.25" />
+        <entry key="..\:/Users/gerso/AndroidStudioProjects/trabajo1/app/src/main/res/layout/activity_main.xml" value="0.15" />
+        <entry key="..\:/Users/gerso/AndroidStudioProjects/trabajo1/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Users/gerso/AndroidStudioProjects/trabajo1/app/src/main/res/layout/activity_perroinfo.xml" value="0.22" />
+        <entry key="..\:/Users/gerso/AndroidStudioProjects/trabajo1/app/src/main/res/layout/activity_perros.xml" value="0.1" />
+        <entry key="..\:/Users/gerso/AndroidStudioProjects/trabajo1/app/src/main/res/layout/activity_splash.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/gerso/AndroidStudioProjects/trabajo1/app/src/main/res/layout/activity_splash2.xml" value="0.1" />
+        <entry key="..\:/Users/gerso/AndroidStudioProjects/trabajo1/app/src/main/res/layout/activity_tigres.xml" value="0.1" />
+        <entry key="..\:/Users/gerso/AndroidStudioProjects/trabajo1/app/src/main/res/layout/activity_tigresinfo.xml" value="0.22" />
+        <entry key="..\:/Users/gerso/AndroidStudioProjects/trabajo1/app/src/main/res/layout/activity_tortugainfo.xml" value="0.25" />
+        <entry key="..\:/Users/gerso/AndroidStudioProjects/trabajo1/app/src/main/res/layout/activity_tortugas.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/gerso/AndroidStudioProjects/trabajo1/app/src/main/res/layout/activity_venadoinfo.xml" value="0.22" />
+        <entry key="..\:/Users/gerso/AndroidStudioProjects/trabajo1/app/src/main/res/layout/activity_venados.xml" value="0.1" />
+        <entry key="..\:/Users/gerso/AndroidStudioProjects/trabajo1/app/src/main/res/layout/activity_zorroinfo.xml" value="0.25" />
+        <entry key="..\:/Users/gerso/AndroidStudioProjects/trabajo1/app/src/main/res/layout/activity_zorros.xml" value="0.1" />
+        <entry key="..\:/android/trabajo1/app/src/main/res/layout/activity_ballenainfo.xml" value="0.22826086956521738" />
+        <entry key="..\:/android/trabajo1/app/src/main/res/layout/activity_ballenas.xml" value="0.10989583333333333" />
+        <entry key="..\:/android/trabajo1/app/src/main/res/layout/activity_elefanteinfo.xml" value="0.10989583333333333" />
+        <entry key="..\:/android/trabajo1/app/src/main/res/layout/activity_koalainfo.xml" value="0.10989583333333333" />
+        <entry key="..\:/android/trabajo1/app/src/main/res/layout/activity_koalas.xml" value="0.10989583333333333" />
+        <entry key="..\:/android/trabajo1/app/src/main/res/layout/activity_leones.xml" value="0.10989583333333333" />
+        <entry key="..\:/android/trabajo1/app/src/main/res/layout/activity_leoninfo.xml" value="0.10989583333333333" />
+        <entry key="..\:/android/trabajo1/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/android/trabajo1/app/src/main/res/layout/activity_perroinfo.xml" value="0.22826086956521738" />
+        <entry key="..\:/android/trabajo1/app/src/main/res/layout/activity_perros.xml" value="0.22826086956521738" />
+        <entry key="..\:/android/trabajo1/app/src/main/res/layout/activity_splash.xml" value="0.22826086956521738" />
+        <entry key="..\:/android/trabajo1/app/src/main/res/layout/activity_tigres.xml" value="0.22826086956521738" />
+        <entry key="..\:/android/trabajo1/app/src/main/res/layout/activity_tigresinfo.xml" value="0.10989583333333333" />
+        <entry key="..\:/android/trabajo1/app/src/main/res/layout/activity_tortugainfo.xml" value="0.10989583333333333" />
+        <entry key="..\:/android/trabajo1/app/src/main/res/layout/activity_tortugas.xml" value="0.22826086956521738" />
+        <entry key="..\:/android/trabajo1/app/src/main/res/layout/activity_venadoinfo.xml" value="0.10989583333333333" />
+        <entry key="..\:/android/trabajo1/app/src/main/res/layout/activity_venados.xml" value="0.22826086956521738" />
+        <entry key="..\:/android/trabajo1/app/src/main/res/layout/activity_zorroinfo.xml" value="0.10989583333333333" />
+        <entry key="..\:/android/trabajo1/app/src/main/res/layout/activity_zorros.xml" value="0.10989583333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

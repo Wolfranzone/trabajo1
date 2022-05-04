@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_elefante"
+    tools:context=".elefanteinfo">
+
+
+    <TextView
+
+        android:id="@+id/textView6"
+        android:layout_width="366dp"
+        android:layout_height="548dp"
+        android:layout_marginTop="36dp"
+        android:text="Existen más de 10 características físicas que diferencian a los elefantes asiáticos de los africanos. Por ejemplo, los elefantes asiáticos son más pequeños que los africanos y sus orejas son rectas en la parte inferior, a comparación de las grandes orejas en forma de abanico de las especies africanas. Solo algunos elefantes machos asiáticos tienen colmillos, mientras que los elefantes africanos, tanto machos como hembras, tienen colmillos. También, es importante señalar que existen dos especies de elefantes en el continente africano: el elefante de la sabana y el elefante del bosque, con una serie de características que los hacen distintos.   El elefante africano del bosque está catalogado como En Peligro Crítico y el elefante de la sabana africana como En Peligro. Esto es importante ya que enfrentan diferentes desafíos de conservación y ocurren en áreas de distribución y hábitats distintos en toda África.  Los elefantes de los bosques africanos habitan la densa selva tropical de África occidental y central, mientras que los elefantes de la sabana africana habitan principalmente en las sabanas boscosas y los pastizales del África subsahariana. También difieren físicamente. Los elefantes de la sabana africana son más grandes y sus colmillos se curvan hacia afuera. El elefante africano del bosque es más pequeño, sus colmillos son más rectos y apuntan hacia abajo y tienen orejas más redondeadas."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.644"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/elefante"
+        android:layout_width="330dp"
+        android:layout_height="324dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.654"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.992"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/elephant"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.trabajo1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Trabajo1">
+        <activity
+            android:name=".splash"
+            android:exported="false" />
+        <activity
+            android:name=".perroinfo"
+            android:exported="false" />
+        <activity
+            android:name=".perros"
+            android:exported="false" />
+        <activity
+            android:name=".zorroinfo"
+            android:exported="false" />
+        <activity
+            android:name=".zorros"
+            android:exported="false" />
+        <activity
+            android:name=".venadoinfo"
+            android:exported="false" />
+        <activity
+            android:name=".venados"
+            android:exported="false" />
+        <activity
+            android:name=".tortugainfo"
+            android:exported="false" />
+        <activity
+            android:name=".tortugas"
+            android:exported="false" />
+        <activity
+            android:name=".koalainfo"
+            android:exported="false" />
+        <activity
+            android:name=".koalas"
+            android:exported="false" />
+        <activity
+            android:name=".ballenainfo"
+            android:exported="false" />
+        <activity
+            android:name=".ballenas"
+            android:exported="false" />
+        <activity
+            android:name=".elefanteinfo"
+            android:exported="false" />
+        <activity
+            android:name=".elefantes"
+            android:exported="false" />
+        <activity
+            android:name=".tigresinfo"
+            android:exported="false" />
+        <activity
+            android:name=".Tigres"
+            android:exported="false" />
+        <activity
+            android:name=".leoninfo"
+            android:exported="false" />
+        <activity
+            android:name=".leones"
+            android:exported="false" />
+        <activity android:name=".MainActivity" ></activity>
+        <activity android:name=".splash"></activity>
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+    </application>
+
+</manifest>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_tortuga"
+    tools:context=".tortugainfo">
+
+
+    <TextView
+
+        android:id="@+id/textView6"
+        android:layout_width="368dp"
+        android:layout_height="532dp"
+        android:text="Las tortugas marinas han navegado los océanos de la Tierra durante los últimos 110 millones de años. Al igual que los arrecifes de coral y los lechos de pasto marino, las tortugas marinas son un importante vínculo de los ecosistemas marinos. Algunas de ellas comen grandes cantidades de medusas y representan una fuente de ingresos para las comunidades locales por medio de actividades de ecoturismo. Pero las poblaciones de tortugas marinas están disminuyendo. Cada año, miles de ellas son capturadas accidentalmente por artes de pesca. Además, las playas de las que dependen para anidar están desapareciendo.  WWF trabaja con las comunidades locales para reducir la recolección de huevos y proteger las playas de anidación, alentando a los pescadores a cambiar sus artes de pesca por otras que sean más amigables con las tortugas.  Estas son algunos de los datos más interesantes sobre las tortugas marinas.El registro real de la edad de cualquier especie de tortuga marina es difícil de determinar. Lo que sí sabemos es que las tortugas marinas viven mucho tiempo (algunas pueden vivir hasta 50 años o más) y tienen vidas similares a las de los humanos. La mayoría de las tortugas marinas tardan décadas en madurar (entre 20 y 30 años) y permanecen activamente reproductivas durante otros 10 años."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/tortu"
+        android:layout_width="223dp"
+        android:layout_height="183dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.97"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/tortugaanimada"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_perro"
+    tools:context=".perroinfo">
+
+
+    <TextView
+
+        android:id="@+id/textView6"
+        android:layout_width="339dp"
+        android:layout_height="517dp"
+        android:text="Los perros son seres sociables y viven en manada con otros perros o con humanos. Suelen vivir unos 13 o 15 años y, algunos como los de raza pequeña, llegan a los 17 años. La calidad de vida, tanto por la alimentación como por los cuidados de su salud, es un factor de influencia para la expectativa de vida.  Los perros machos suelen dejar rastros de orina cuando pasean por lugares ajenos a su hogar, para reconocer el camino a la vuelta. También lo hacen para delimitar su territorio ante otros perros.  El sentido más desarrollado que tienen los perros es el olfato, que resulta un millón de veces más sensible que el de los humanos. Pueden detectar olores apenas perceptibles o distinguir entre aromas muy similares. A través del olfato interpretan el mundo que los rodea, por ejemplo, obtienen mayor información de la comida a través del olfato antes que por el gusto.  Tienen un espectro auditivo muy desarrollado y pueden detectar frecuencias hasta 60.000 hz en comparación con el humano, que puede detectar frecuencias hasta los 20.000 hz. Por eso, sienten mucho más intensos los sonidos en comparación al ser humano, como los ruidos de un motor o de los fuegos artificiales.  Su gran capacidad auditiva permite que sean guardianes y buenos cazadores ya que pueden alertarse a tiempo gracias a su capacidad de captar sonidos muy leves o que provienen de distancias alejadas. Además, su retina percibe mejor el movimiento y la luz en comparación a las personas, aunque no distinguen una gran amplitud cromática.   "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/perron"
+        android:layout_width="263dp"
+        android:layout_height="210dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.418"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/perro"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

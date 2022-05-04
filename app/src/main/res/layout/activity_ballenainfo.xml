@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_ballena"
+    tools:context=".ballenainfo">
+
+
+        <TextView
+
+            android:id="@+id/textView6"
+            android:layout_width="378dp"
+            android:layout_height="504dp"
+            android:text="La población de ballenas azules en la Antártida se redujo drásticamente debido a la caza comercial de ballenas que comenzó en el sur del Océano Atlántico en 1904. A pesar de la protección legal que tenían estos animales a través de la Comisión Ballenera Internacional en la década de 1960, la caza ilegal continuó hasta 1972. En 1926 se estimaba que había unos 125,000 individuos, cifra que disminuyó a 3,000 en 2018, por lo que se clasificó a la especie como &quot;en peligro crítico&quot; según la Lista Roja de la UICN.  Un notable número de ballenas azules antárticas avistadas recientemente Al regresar de su más reciente expedición a la isla subantártica de Georgia del Sur, un equipo de científicos, dirigido por el British Antarctic Survey (BAS), compartió algunas buenas noticias. Durante su expedición de 2020 lograron contar 55 ballenas azules antárticas, acontecimiento que consideran &quot;sin precedentes&quot;. Las aguas de Georgia del Sur siguen siendo un importante lugar de alimentación durante el verano.  La Dra. Jennifer Jackson, ecóloga de ballenas del BAS, comenta: “Después de tres años de estudios, estamos encantados de ver tantas ballenas visitando Georgia del Sur para alimentarse de nuevo. Este es un lugar donde tanto la caza de ballenas como la caza de focas se llevaron a cabo ampliamente. Está claro que la protección contra la caza de ballenas ha funcionado. Como ejemplo, las ballenas jorobadas ahora pueden ser vistas en densidades similares a las de un siglo atrás, época cuando comenzó la caza de ballenas en Georgia del Sur”."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/balle"
+            android:layout_width="320dp"
+            android:layout_height="245dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.626"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:lottie_autoPlay="true"
+            app:lottie_rawRes="@raw/ballena"
+            tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
